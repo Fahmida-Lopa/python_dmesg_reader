@@ -1,0 +1,70 @@
+[
+    {
+        "timestamp": "Fri Feb 24 09:33:02 2023",
+        "message": "ACPI Error: [\\_SB_.PCI0.XHC_.RHUB.HS11] Namespace lookup failure, AE_NOT_FOUND (20130517/dswload-194)"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:03 2023",
+        "message": "BERT: Boot Error Record Table support is disabled. Enable it by using bert_enable as kernel parameter."
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:03 2023",
+        "message": "[drm] failed to retrieve link info, disabling eDP"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:15 2023",
+        "message": "hp_wmi: query 0x4 returned error 0x5"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:15 2023",
+        "message": "hp_wmi: query 0x4 returned error 0x5"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:29 2023",
+        "message": "cp210x ttyUSB1: failed set req 0x1e size 4 status: -32"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:29 2023",
+        "message": "cp210x ttyUSB1: failed to set baud rate to 300"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:29 2023",
+        "message": "cp210x ttyUSB3: failed set req 0x1e size 4 status: -32"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:29 2023",
+        "message": "cp210x ttyUSB3: failed to set baud rate to 300"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:42 2023",
+        "message": "cp210x ttyUSB1: failed set req 0x1e size 4 status: -32"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:42 2023",
+        "message": "cp210x ttyUSB1: failed to set baud rate to 300"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:42 2023",
+        "message": "cp210x ttyUSB3: failed set req 0x1e size 4 status: -32"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:33:42 2023",
+        "message": "cp210x ttyUSB3: failed to set baud rate to 300"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:36:58 2023",
+        "message": "cp210x ttyUSB1: usb_serial_generic_read_bulk_callback - urb stopped: -32"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:36:58 2023",
+        "message": "cp210x ttyUSB1: usb_serial_generic_read_bulk_callback - urb stopped: -32"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:36:58 2023",
+        "message": "cp210x ttyUSB1: failed set request 0x12 status: -19"
+    },
+    {
+        "timestamp": "Fri Feb 24 09:36:58 2023",
+        "message": "cp210x ttyUSB1: failed set request 0x0 status: -19"
+    }
+]
