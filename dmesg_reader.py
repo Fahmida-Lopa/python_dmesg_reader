@@ -20,7 +20,7 @@ def parseFile(filename):
     except FileNotFoundError:
         print("Error: dmesg log file is not found")
         return
-    
+
     return content
 
 
@@ -60,12 +60,9 @@ def findErrors(log, date):
 
                     # Otherwise, check if the error is within the
                     # given timestamp
-                    
-                    elif(datetime.strptime(
-                        timestamp, "%a %b %d %H:%M:%S %Y"
-                        )
-                        >= date
-                    ):
+
+                    elif (datetime.strptime(timestamp, "%a %b %d %H:%M:%S %Y")
+                          >= date):
                         error_messages.append(
                             {"timestamp": timestamp, "message": message}
                         )
@@ -107,7 +104,7 @@ def printMessage(message):
     if not message:
         return
     for m in message:
-        print("["f"{m['timestamp']}""] "f"{m['message']}")
+        print("[" f"{m['timestamp']}" "] " f"{m['message']}")
 
 
 """
